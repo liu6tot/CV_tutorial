@@ -13,7 +13,7 @@ void detectAndDisplay(Mat frame);
 
 // Global variables
 // Copy this file from opencv/data/haarscascades to target folder
-string face_cascade_name = "C:/opencv/haar/haarcascade_frontalface_alt.xml";
+string face_cascade_name = "D:/CV_tutorial/git_single_code/haarcascade_frontalface_alt.xml";
 CascadeClassifier face_cascade;
 string window_name = "Capture - Face detection";
 int filenumber; // Number of file to be saved
